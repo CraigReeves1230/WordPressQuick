@@ -28,9 +28,8 @@ sudo apt-get install -y imagemagick
 sudo systemctl start php7.0-fpm
 sudo apt-get install -y composer
 
-sudo service nginx restart
 sudo usermod -a -G sudo www-data
-
+sudo service nginx restart
 
 
 
